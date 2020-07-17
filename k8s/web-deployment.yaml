@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: python-template-deployment
+  name: diagnostics-deployment
   labels:
-    app: python-template
+    app: diagnostics
 spec:
   selector:
     matchLabels:
-      app: python-template
+      app: diagnostics
       role: web
   template:
     metadata:
       labels:
-        app: python-template
+        app: diagnostics
         role: web
     spec:
       containers:
-      - image: registry.openculinary.org/reciperadar/python-template
+      - image: registry.openculinary.org/reciperadar/diagnostics
         imagePullPolicy: IfNotPresent
-        name: python-template
+        name: diagnostics
         ports:
         - containerPort: 80
