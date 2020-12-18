@@ -7,10 +7,6 @@ name = "pypi"
 python_version = "3.8"
 
 [packages]
-flask = "==1.1.2"
-gunicorn = "==20.0.4"
-requests = "==2.25.1"
-requests-futures = "==1.0.0"
 
 [dev-packages]
 flake8 = "*"
