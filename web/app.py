@@ -1,20 +1,23 @@
-from flask import Flask, jsonify
-from requests_futures.sessions import FuturesSession
+import asyncio
+from quart import Quart, jsonify
+import httpx
 
-app = Flask(__name__)
+app = Quart(__name__)
 
 
 @app.route("/recipes/<recipe_id>")
-def recipe_diagnostics(recipe_id):
+async def recipe_diagnostics(recipe_id):
     backend = "http://backend-service"
-    session = FuturesSession()
-    recipe_crawled = session.get(f"{backend}/recipes/{recipe_id}/crawl")
-    recipe_indexed = session.get(f"{backend}/recipes/{recipe_id}")
-    recipe_history = session.get(f"{backend}/recipes/{recipe_id}/history")
-    return jsonify(
-        {
-            "crawled": recipe_crawled.result().json(),
-            "indexed": recipe_indexed.result().json(),
-            "history": recipe_history.result().json(),
-        }
-    )
+    async with httpx.AsyncClient() as client:
+        recipe_crawled, recipe_indexed, recipe_history = await asyncio.gather(
+            client.get(f"{backend}/recipes/{recipe_id}/crawl"),
+            client.get(f"{backend}/recipes/{recipe_id}"),
+            client.get(f"{backend}/recipes/{recipe_id}/history"),
+        )
+        return jsonify(
+            {
+                "crawled": recipe_crawled.json(),
+                "indexed": recipe_indexed.json(),
+                "history": recipe_history.json(),
+            }
+        )

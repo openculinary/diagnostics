@@ -51,4 +51,4 @@ lint: venv
 	venv/bin/flake8 web
 
 tests: venv
-	venv/bin/pytest tests
+	venv/bin/pytest tests --asyncio-mode=auto

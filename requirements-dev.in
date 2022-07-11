@@ -1,5 +1,5 @@
 --requirement requirements.txt
 black
 flake8
-pytest
-responses
+pytest-asyncio
+respx
