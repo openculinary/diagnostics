@@ -1,2 +1,2 @@
 def test_request(client):
-    client.get('/recipes/example_id')
+    client.get("/recipes/example_id")
