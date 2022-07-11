@@ -180,10 +180,15 @@ requests[use_chardet_on_py3]==2.28.1 \
     # via
     #   -r requirements.txt
     #   requests-futures
+    #   responses
 requests-futures==1.0.0 \
     --hash=sha256:35547502bf1958044716a03a2f47092a89efe8f9789ab0c4c528d9c9c30bc148 \
     --hash=sha256:633804c773b960cef009efe2a5585483443c6eac3c39cc64beba2884013bcdd9
     # via -r requirements.txt
+responses==0.21.0 \
+    --hash=sha256:2dcc863ba63963c0c3d9ee3fa9507cbe36b7d7b0fccb4f0bdfd9e96c539b1487 \
+    --hash=sha256:b82502eb5f09a0289d8e209e7bad71ef3978334f56d09b444253d5ad67bf5253
+    # via -r requirements-dev.in
 tomli==2.0.1 \
     --hash=sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc \
     --hash=sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f
@@ -200,6 +205,7 @@ urllib3==1.26.10 \
     # via
     #   -r requirements.txt
     #   requests
+    #   responses
 werkzeug==2.1.2 \
     --hash=sha256:1ce08e8093ed67d638d63879fd1ba3735817f7a80de3674d293f5984f25fb6e6 \
     --hash=sha256:72a4b735692dd3135217911cbeaa1be5fa3f62bffb8745c5215420a03dc55255
