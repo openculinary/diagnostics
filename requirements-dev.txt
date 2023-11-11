@@ -9,34 +9,30 @@ anyio==4.0.0 \
     --hash=sha256:f7ed51751b2c2add651e5747c891b47e26d2a21be5d32d9311dfe9692f3e5d7a
     # via
     #   -r requirements.txt
-    #   httpcore
-black==23.9.1 \
-    --hash=sha256:031e8c69f3d3b09e1aa471a926a1eeb0b9071f80b17689a655f7885ac9325a6f \
-    --hash=sha256:13a2e4a93bb8ca74a749b6974925c27219bb3df4d42fc45e948a5d9feb5122b7 \
-    --hash=sha256:13ef033794029b85dfea8032c9d3b92b42b526f1ff4bf13b2182ce4e917f5100 \
-    --hash=sha256:14f04c990259576acd093871e7e9b14918eb28f1866f91968ff5524293f9c573 \
-    --hash=sha256:24b6b3ff5c6d9ea08a8888f6977eae858e1f340d7260cf56d70a49823236b62d \
-    --hash=sha256:403397c033adbc45c2bd41747da1f7fc7eaa44efbee256b53842470d4ac5a70f \
-    --hash=sha256:50254ebfa56aa46a9fdd5d651f9637485068a1adf42270148cd101cdf56e0ad9 \
-    --hash=sha256:538efb451cd50f43aba394e9ec7ad55a37598faae3348d723b59ea8e91616300 \
-    --hash=sha256:638619a559280de0c2aa4d76f504891c9860bb8fa214267358f0a20f27c12948 \
-    --hash=sha256:6a3b50e4b93f43b34a9d3ef00d9b6728b4a722c997c99ab09102fd5efdb88325 \
-    --hash=sha256:6ccd59584cc834b6d127628713e4b6b968e5f79572da66284532525a042549f9 \
-    --hash=sha256:75a2dc41b183d4872d3a500d2b9c9016e67ed95738a3624f4751a0cb4818fe71 \
-    --hash=sha256:7d30ec46de88091e4316b17ae58bbbfc12b2de05e069030f6b747dfc649ad186 \
-    --hash=sha256:8431445bf62d2a914b541da7ab3e2b4f3bc052d2ccbf157ebad18ea126efb91f \
-    --hash=sha256:8fc1ddcf83f996247505db6b715294eba56ea9372e107fd54963c7553f2b6dfe \
-    --hash=sha256:a732b82747235e0542c03bf352c126052c0fbc458d8a239a94701175b17d4855 \
-    --hash=sha256:adc3e4442eef57f99b5590b245a328aad19c99552e0bdc7f0b04db6656debd80 \
-    --hash=sha256:c46767e8df1b7beefb0899c4a95fb43058fa8500b6db144f4ff3ca38eb2f6393 \
-    --hash=sha256:c619f063c2d68f19b2d7270f4cf3192cb81c9ec5bc5ba02df91471d0b88c4c5c \
-    --hash=sha256:cf3a4d00e4cdb6734b64bf23cd4341421e8953615cba6b3670453737a72ec204 \
-    --hash=sha256:cf99f3de8b3273a8317681d8194ea222f10e0133a24a7548c73ce44ea1679377 \
-    --hash=sha256:d6bc09188020c9ac2555a498949401ab35bb6bf76d4e0f8ee251694664df6301
+    #   httpx
+black==23.11.0 \
+    --hash=sha256:250d7e60f323fcfc8ea6c800d5eba12f7967400eb6c2d21ae85ad31c204fb1f4 \
+    --hash=sha256:2a9acad1451632021ee0d146c8765782a0c3846e0e0ea46659d7c4f89d9b212b \
+    --hash=sha256:412f56bab20ac85927f3a959230331de5614aecda1ede14b373083f62ec24e6f \
+    --hash=sha256:421f3e44aa67138ab1b9bfbc22ee3780b22fa5b291e4db8ab7eee95200726b07 \
+    --hash=sha256:45aa1d4675964946e53ab81aeec7a37613c1cb71647b5394779e6efb79d6d187 \
+    --hash=sha256:4c44b7211a3a0570cc097e81135faa5f261264f4dfaa22bd5ee2875a4e773bd6 \
+    --hash=sha256:4c68855825ff432d197229846f971bc4d6666ce90492e5b02013bcaca4d9ab05 \
+    --hash=sha256:5133f5507007ba08d8b7b263c7aa0f931af5ba88a29beacc4b2dc23fcefe9c06 \
+    --hash=sha256:54caaa703227c6e0c87b76326d0862184729a69b73d3b7305b6288e1d830067e \
+    --hash=sha256:58e5f4d08a205b11800332920e285bd25e1a75c54953e05502052738fe16b3b5 \
+    --hash=sha256:698c1e0d5c43354ec5d6f4d914d0d553a9ada56c85415700b81dc90125aac244 \
+    --hash=sha256:6c1cac07e64433f646a9a838cdc00c9768b3c362805afc3fce341af0e6a9ae9f \
+    --hash=sha256:760415ccc20f9e8747084169110ef75d545f3b0932ee21368f63ac0fee86b221 \
+    --hash=sha256:7f622b6822f02bfaf2a5cd31fdb7cd86fcf33dab6ced5185c35f5db98260b055 \
+    --hash=sha256:cf57719e581cfd48c4efe28543fea3d139c6b6f1238b3f0102a9c73992cbb479 \
+    --hash=sha256:d136ef5b418c81660ad847efe0e55c58c8208b77a57a28a503a5f345ccf01394 \
+    --hash=sha256:dbea0bb8575c6b6303cc65017b46351dc5953eea5c0a59d7b7e3a2d2f433a911 \
+    --hash=sha256:fc7f6a44d52747e65a02558e1d807c82df1d66ffa80a601862040a43ec2e3142
     # via -r requirements-dev.in
-blinker==1.6.2 \
-    --hash=sha256:4afd3de66ef3a9f8067559fb7a1cbe555c17dcbe15971b05d1b625c3e7abe213 \
-    --hash=sha256:c3d739772abb7bc2860abf5f2ec284223d9ad5c76da018234f6f50d6f31ab1f0
+blinker==1.7.0 \
+    --hash=sha256:c3f865d4d54db7abc53758a01601cf343fe55b84c1de4e3fa910e420b438d5b9 \
+    --hash=sha256:e6820ff6fa4e4d1d8e2747c2283749c3f547e4fee112b98555cdcdae32996182
     # via
     #   -r requirements.txt
     #   flask
@@ -90,21 +86,21 @@ hpack==4.0.0 \
     # via
     #   -r requirements.txt
     #   h2
-httpcore==0.18.0 \
-    --hash=sha256:13b5e5cd1dca1a6636a6aaea212b19f4f85cd88c366a2b82304181b769aab3c9 \
-    --hash=sha256:adc5398ee0a476567bf87467063ee63584a8bce86078bf748e48754f60202ced
+httpcore==1.0.2 \
+    --hash=sha256:096cc05bca73b8e459a1fc3dcf585148f63e534eae4339559c9b8a8d6399acc7 \
+    --hash=sha256:9fc092e4799b26174648e54b74ed5f683132a464e95643b226e00c2ed2fa6535
     # via
     #   -r requirements.txt
     #   httpx
-httpx==0.25.0 \
-    --hash=sha256:181ea7f8ba3a82578be86ef4171554dd45fec26a02556a744db029a0a27b7100 \
-    --hash=sha256:47ecda285389cb32bb2691cc6e069e3ab0205956f681c5b2ad2325719751d875
+httpx==0.25.1 \
+    --hash=sha256:fec7d6cc5c27c578a391f7e87b9aa7d3d8fbcd034f6399f9f79b45bcc12a866a \
+    --hash=sha256:ffd96d5cf901e63863d9f1b4b6807861dbea4d301613415d9e6e57ead15fc5d0
     # via
     #   -r requirements.txt
     #   respx
-hypercorn==0.14.4 \
-    --hash=sha256:3fa504efc46a271640023c9b88c3184fd64993f47a282e8ae1a13ccb285c2f67 \
-    --hash=sha256:f956200dbf8677684e6e976219ffa6691d6cf795281184b41dbb0b135ab37b8d
+hypercorn==0.15.0 \
+    --hash=sha256:5008944999612fd188d7a1ca02e89d20065642b89503020ac392dfed11840730 \
+    --hash=sha256:d517f68d5dc7afa9a9d50ecefb0f769f466ebe8c1c18d2c2f447a24e763c9a63
     # via
     #   -r requirements.txt
     #   quart
@@ -225,9 +221,9 @@ pathspec==0.11.2 \
     --hash=sha256:1d6ed233af05e679efb96b1851550ea95bbb64b7c490b0f5aa52996c11e92a20 \
     --hash=sha256:e0d8d0ac2f12da61956eb2306b69f9469b42f4deb0f3cb6ed47b9cce9996ced3
     # via black
-platformdirs==3.11.0 \
-    --hash=sha256:cf8ee52a3afdb965072dcc652433e0c7e3e40cf5ea1477cd4b3b1d2eb75495b3 \
-    --hash=sha256:e9d171d00af68be50e9202731309c4e658fd8bc76f55c11c7dd760d023bda68e
+platformdirs==4.0.0 \
+    --hash=sha256:118c954d7e949b35437270383a3f2531e99dd93cf7ce4dc8340d3356d30f173b \
+    --hash=sha256:cb633b2bcf10c51af60beb0ab06d2f1d69064b43abf4c185ca6b28865f3f9731
     # via black
 pluggy==1.3.0 \
     --hash=sha256:cf61ae8f126ac6f7c451172cf30e3e43d3ca77615509771b3a984a0730651e12 \
@@ -239,25 +235,25 @@ priority==2.0.0 \
     # via
     #   -r requirements.txt
     #   hypercorn
-pycodestyle==2.11.0 \
-    --hash=sha256:259bcc17857d8a8b3b4a2327324b79e5f020a13c16074670f9c8c8f872ea76d0 \
-    --hash=sha256:5d1013ba8dc7895b548be5afb05740ca82454fd899971563d2ef625d090326f8
+pycodestyle==2.11.1 \
+    --hash=sha256:41ba0e7afc9752dfb53ced5489e89f8186be00e599e712660695b7a75ff2663f \
+    --hash=sha256:44fe31000b2d866f2e41841b18528a505fbd7fef9017b04eff4e2648a0fadc67
     # via flake8
 pyflakes==3.1.0 \
     --hash=sha256:4132f6d49cb4dae6819e5379898f2b8cce3c5f23994194c24b77d5da2e36f774 \
     --hash=sha256:a0aae034c444db0071aa077972ba4768d40c830d9539fd45bf4cd3f8f6992efc
     # via flake8
-pytest==7.4.2 \
-    --hash=sha256:1d881c6124e08ff0a1bb75ba3ec0bfd8b5354a01c194ddd5a0a870a48d99b002 \
-    --hash=sha256:a766259cfab564a2ad52cb1aae1b881a75c3eb7e34ca3779697c23ed47c47069
+pytest==7.4.3 \
+    --hash=sha256:0d009c083ea859a71b76adf7c1d502e4bc170b80a8ef002da5806527b9591fac \
+    --hash=sha256:d989d136982de4e3b29dabcc838ad581c64e8ed52c11fbe86ddebd9da0818cd5
     # via pytest-asyncio
 pytest-asyncio==0.21.1 \
     --hash=sha256:40a7eae6dded22c7b604986855ea48400ab15b069ae38116e8c01238e9eeb64d \
     --hash=sha256:8666c1c8ac02631d7c51ba282e0c69a8a452b211ffedf2599099845da5c5c37b
     # via -r requirements-dev.in
-quart==0.19.2 \
-    --hash=sha256:eb61fcd4223015f5dfc2f39cf432052a2eba5a2595955feecede52f6042fbae8 \
-    --hash=sha256:f450de888fa1435261ec0b6ed72e1174920df6a38d0e9a62fa5a78d62c9687a0
+quart==0.19.3 \
+    --hash=sha256:3bfb433bb4edfcb13eb908096e579cb99eaae0b57ef05a3edfde797a2b12518a \
+    --hash=sha256:530ab6cc9b9e694ba48c00085a7bf881e2f7f23bdc51e27281e6739eee36c13f
     # via -r requirements.txt
 respx==0.20.2 \
     --hash=sha256:07cf4108b1c88b82010f67d3c831dae33a375c7b436e54d87737c7f9f99be643 \
@@ -269,11 +265,10 @@ sniffio==1.3.0 \
     # via
     #   -r requirements.txt
     #   anyio
-    #   httpcore
     #   httpx
-werkzeug==3.0.0 \
-    --hash=sha256:3ffff4dcc32db52ef3cc94dff3000a3c2846890f3a5a51800a27b909c5e770f0 \
-    --hash=sha256:cbb2600f7eabe51dbc0502f58be0b3e1b96b893b05695ea2b35b43d4de2d9962
+werkzeug==3.0.1 \
+    --hash=sha256:507e811ecea72b18a404947aded4b3390e1db8f826b494d76550ef45bb3b1dcc \
+    --hash=sha256:90a285dc0e42ad56b34e696398b8122ee4c681833fb35b8334a095d82c56da10
     # via
     #   -r requirements.txt
     #   flask
