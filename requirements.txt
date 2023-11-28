@@ -2,9 +2,9 @@ aiofiles==23.2.1 \
     --hash=sha256:19297512c647d4b27a2cf7c34caa7e405c0d60b5560618a29a9fe027b18b0107 \
     --hash=sha256:84ec2218d8419404abcb9f0c02df3f34c6e0a68ed41072acfb1cef5cbc29051a
     # via quart
-anyio==4.0.0 \
-    --hash=sha256:cfdb2b588b9fc25ede96d8db56ed50848b0b649dca3dd1df0b11f683bb9e0b5f \
-    --hash=sha256:f7ed51751b2c2add651e5747c891b47e26d2a21be5d32d9311dfe9692f3e5d7a
+anyio==4.1.0 \
+    --hash=sha256:56a415fbc462291813a94528a779597226619c8e78af7de0507333f700011e5f \
+    --hash=sha256:5a0bec7085176715be77df87fc66d6c9d70626bd752fcc85f57cdbee5b3760da
     # via httpx
 blinker==1.7.0 \
     --hash=sha256:c3f865d4d54db7abc53758a01601cf343fe55b84c1de4e3fa910e420b438d5b9 \
@@ -12,9 +12,9 @@ blinker==1.7.0 \
     # via
     #   flask
     #   quart
-certifi==2023.7.22 \
-    --hash=sha256:539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082 \
-    --hash=sha256:92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9
+certifi==2023.11.17 \
+    --hash=sha256:9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1 \
+    --hash=sha256:e036ab49d5b79556f99cfc2d9320b34cfbe5be05c5871b51de9329f0603b0474
     # via
     #   httpcore
     #   httpx
@@ -51,9 +51,9 @@ httpcore==1.0.2 \
     --hash=sha256:096cc05bca73b8e459a1fc3dcf585148f63e534eae4339559c9b8a8d6399acc7 \
     --hash=sha256:9fc092e4799b26174648e54b74ed5f683132a464e95643b226e00c2ed2fa6535
     # via httpx
-httpx==0.25.1 \
-    --hash=sha256:fec7d6cc5c27c578a391f7e87b9aa7d3d8fbcd034f6399f9f79b45bcc12a866a \
-    --hash=sha256:ffd96d5cf901e63863d9f1b4b6807861dbea4d301613415d9e6e57ead15fc5d0
+httpx==0.25.2 \
+    --hash=sha256:8b8fcaa0c8ea7b05edd69a094e63a2094c4efcb48129fb757361bc423c0ad9e8 \
+    --hash=sha256:a05d3d052d9b2dfce0e3896636467f8a5342fb2b902c819428e1ac65413ca118
     # via -r requirements.in
 hypercorn==0.15.0 \
     --hash=sha256:5008944999612fd188d7a1ca02e89d20065642b89503020ac392dfed11840730 \
@@ -63,9 +63,9 @@ hyperframe==6.0.1 \
     --hash=sha256:0ec6bafd80d8ad2195c4f03aacba3a8265e57bc4cff261e802bf39970ed02a15 \
     --hash=sha256:ae510046231dc8e9ecb1a6586f63d2347bf4c8905914aa84ba585ae85f28a914
     # via h2
-idna==3.4 \
-    --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4 \
-    --hash=sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
+idna==3.6 \
+    --hash=sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca \
+    --hash=sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f
     # via
     #   anyio
     #   httpx
@@ -154,9 +154,9 @@ priority==2.0.0 \
     --hash=sha256:6f8eefce5f3ad59baf2c080a664037bb4725cd0a790d53d59ab4059288faf6aa \
     --hash=sha256:c965d54f1b8d0d0b19479db3924c7c36cf672dbf2aec92d43fbdaf4492ba18c0
     # via hypercorn
-quart==0.19.3 \
-    --hash=sha256:3bfb433bb4edfcb13eb908096e579cb99eaae0b57ef05a3edfde797a2b12518a \
-    --hash=sha256:530ab6cc9b9e694ba48c00085a7bf881e2f7f23bdc51e27281e6739eee36c13f
+quart==0.19.4 \
+    --hash=sha256:22ff186cf164955a7bf7483ff42a739a9fad3b119041846b15dc9597ec74c85c \
+    --hash=sha256:959da9371b44b6f48d952661863f8f64e68a893481ef3f2ef45b177629dc0928
     # via -r requirements.in
 sniffio==1.3.0 \
     --hash=sha256:e60305c5e5d314f5389259b7f22aaa33d8f7dee49763119234af3755c55b9101 \
