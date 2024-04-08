@@ -60,9 +60,9 @@ flake8==7.0.0 \
     --hash=sha256:33f96621059e65eec474169085dc92bf26e7b2d47366b70be2f67ab80dc25132 \
     --hash=sha256:a6dfbb75e03252917f2473ea9653f7cd799c3064e54d4c8140044c5c065f53c3
     # via -r requirements-dev.in
-flask==3.0.2 \
-    --hash=sha256:3232e0e9c850d781933cf0207523d1ece087eb8d87b23777ae38456e2fbe7c6e \
-    --hash=sha256:822c03f4b799204250a7ee84b1eddc40665395333973dfb9deebfe425fefcb7d
+flask==3.0.3 \
+    --hash=sha256:34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3 \
+    --hash=sha256:ceb27b0af3823ea2737928a4d99d125a06175b8512c445cbd9a9ce200ef76842
     # via
     #   -r requirements.txt
     #   quart
@@ -255,9 +255,9 @@ pytest-asyncio==0.23.6 \
     --hash=sha256:68516fdd1018ac57b846c9846b954f0393b26f094764a28c955eabb0536a4e8a \
     --hash=sha256:ffe523a89c1c222598c76856e76852b787504ddb72dd5d9b6617ffa8aa2cde5f
     # via -r requirements-dev.in
-quart==0.19.4 \
-    --hash=sha256:22ff186cf164955a7bf7483ff42a739a9fad3b119041846b15dc9597ec74c85c \
-    --hash=sha256:959da9371b44b6f48d952661863f8f64e68a893481ef3f2ef45b177629dc0928
+quart==0.19.5 \
+    --hash=sha256:581d959bda40d3c45500c50007a6451a157fd381c70d3556811bdd334adb9657 \
+    --hash=sha256:fbe3cff25cd18b5c0e8d82bbeeaa43d78f35e5221ca5c50bb0b7c20255c87ab8
     # via -r requirements.txt
 respx==0.21.1 \
     --hash=sha256:05f45de23f0c785862a2c92a3e173916e8ca88e4caad715dd5f68584d6053c20 \
@@ -270,9 +270,9 @@ sniffio==1.3.1 \
     #   -r requirements.txt
     #   anyio
     #   httpx
-werkzeug==3.0.1 \
-    --hash=sha256:507e811ecea72b18a404947aded4b3390e1db8f826b494d76550ef45bb3b1dcc \
-    --hash=sha256:90a285dc0e42ad56b34e696398b8122ee4c681833fb35b8334a095d82c56da10
+werkzeug==3.0.2 \
+    --hash=sha256:3aac3f5da756f93030740bc235d3e09449efcf65f2f55e3602e1d851b8f48795 \
+    --hash=sha256:e39b645a6ac92822588e7b39a692e7828724ceae0b0d702ef96701f90e70128d
     # via
     #   -r requirements.txt
     #   flask
