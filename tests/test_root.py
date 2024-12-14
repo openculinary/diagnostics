@@ -1,7 +1,11 @@
 import pytest
 
 
-@pytest.mark.respx(base_url="http://backend-service", assert_all_called=True)
+@pytest.mark.respx(
+    base_url="http://backend-service",
+    assert_all_called=True,
+    using="httpx",
+)
 async def test_request(client, respx_mock):
     recipe_id = "example_id"
     recipe = {"id": recipe_id}
